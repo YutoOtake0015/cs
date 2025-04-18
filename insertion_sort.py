@@ -1,4 +1,4 @@
-# 選択ソート
+# 挿入ソート
 def insertionSort(arr):
     n = len(arr)
 
