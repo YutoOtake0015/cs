@@ -1,12 +1,10 @@
 # 学習したアルゴリズムの記録
 
-## CS
-
+<details>
 <summary>Algorithm</summary>
 
 - 選択ソート(selection sort)
 - 挿入ソート(insertion sort)
 - 分割統治法(divide and conquer method)
 - マージソート(merge sort)
-
 </details>
