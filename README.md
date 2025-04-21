@@ -1,5 +1,3 @@
-# 学習したアルゴリズムの記録
-
 <details>
 <summary>Algorithm</summary>
 
