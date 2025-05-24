@@ -6,4 +6,5 @@
 - 分割統治法(divide and conquer method)
 - マージソート(merge sort)
 - フィボナッチ数(fibonacci number)
+- 単方向リスト(singly linked list)
 </details>
