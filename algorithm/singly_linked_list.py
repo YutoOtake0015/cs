@@ -5,20 +5,18 @@ class Node(object):
         self.next = None
 
 class SinglyLinkedList(object):
-    def __init__(self, node):
-        self.head = node
+    def __init__(self, arr):
+        self.head = Node(arr[0])
 
-# ノード作成
-node1 = Node(100)
-node2 = Node(200)
-node3 = Node(300)
+        currentNode = self.head
+        for i in range(1, len(arr)):
+            currentNode.next = Node(arr[i])
+            currentNode = currentNode.next
+    
+arr = [100, 200, 300, 400, 500]
 
-# 単方向リストの先頭にnode1を設定
-numList = SinglyLinkedList(node1)
-
-# ノードを連結
-numList.head.next = node2
-numList.head.next.next = node3
+# 単方向リストを作成
+numList = SinglyLinkedList(arr)
 
 # 単方向リストの内容を出力
 currentNode = numList.head
